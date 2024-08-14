@@ -64,17 +64,13 @@ public class Main {
         // task 6
         System.out.println("Задача 6");
 
-        int places = 65;
-        int sitPlaces = 60;
-        if (places < 102) {
-            System.out.println("В вагоне есть места");
-        } else {
+        int places = 55;
+        if (places >= 102) {
             System.out.println("В вагоне нет мест, он польностью забит людьми");
-        }
-        if (places < sitPlaces) {
-            System.out.println("В вагоне сидячее место");
+        } else if (places > 60) {
+            System.out.println("В вагоне только стоячие места");
         } else {
-            System.out.println("В вагоне стоячее место");
+            System.out.println("В вагоне есть сидячие места");
         }
 
         // task 7
